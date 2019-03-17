@@ -1,0 +1,4 @@
+ここにNetBeansのフォルダを配置します
+
+Please, Copy the NetBenas Foldar to this foldar.
+

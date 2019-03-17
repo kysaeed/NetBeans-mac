@@ -9,5 +9,17 @@
 #import <Cocoa/Cocoa.h>
 
 int main(int argc, const char * argv[]) {
-    return NSApplicationMain(argc, argv);
+    NSFileManager *fileManager = [ NSFileManager defaultManager];
+    NSString *baseDir = [[[NSBundle mainBundle] resourcePath] stringByAppendingString: @"/netbeans/bin/"];
+    [fileManager changeCurrentDirectoryPath:baseDir];
+    
+    NSString* launchFilePath = [[[NSBundle mainBundle] resourcePath] stringByAppendingString: @"/netbeans/bin/netbeans"];
+    
+    NSTask* task = [[NSTask alloc] init];
+    task.launchPath = launchFilePath;
+    // task.arguments = null;
+    [task launch];
+    [task waitUntilExit];
+    
+    return 0;
 }

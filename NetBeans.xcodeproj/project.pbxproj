@@ -11,6 +11,7 @@
 		C92A28BB223E0DC500C5337E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C92A28BA223E0DC500C5337E /* Assets.xcassets */; };
 		C92A28BE223E0DC500C5337E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C92A28BC223E0DC500C5337E /* MainMenu.xib */; };
 		C92A28C1223E0DC500C5337E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C92A28C0223E0DC500C5337E /* main.m */; };
+		C92A28CA223E0E6000C5337E /* ここにNetBeansのフォルダを配置します.txt in Resources */ = {isa = PBXBuildFile; fileRef = C92A28C9223E0E6000C5337E /* ここにNetBeansのフォルダを配置します.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C92A28BF223E0DC500C5337E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C92A28C0223E0DC500C5337E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C92A28C2223E0DC500C5337E /* NetBeans.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NetBeans.entitlements; sourceTree = "<group>"; };
+		C92A28C9223E0E6000C5337E /* ここにNetBeansのフォルダを配置します.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ここにNetBeansのフォルダを配置します.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		C92A28AB223E0DC500C5337E = {
 			isa = PBXGroup;
 			children = (
+				C92A28C8223E0E4400C5337E /* Resources */,
 				C92A28B6223E0DC500C5337E /* NetBeans */,
 				C92A28B5223E0DC500C5337E /* Products */,
 			);
@@ -54,15 +57,23 @@
 		C92A28B6223E0DC500C5337E /* NetBeans */ = {
 			isa = PBXGroup;
 			children = (
+				C92A28C0223E0DC500C5337E /* main.m */,
 				C92A28B7223E0DC500C5337E /* AppDelegate.h */,
 				C92A28B8223E0DC500C5337E /* AppDelegate.m */,
 				C92A28BA223E0DC500C5337E /* Assets.xcassets */,
 				C92A28BC223E0DC500C5337E /* MainMenu.xib */,
 				C92A28BF223E0DC500C5337E /* Info.plist */,
-				C92A28C0223E0DC500C5337E /* main.m */,
 				C92A28C2223E0DC500C5337E /* NetBeans.entitlements */,
 			);
 			path = NetBeans;
+			sourceTree = "<group>";
+		};
+		C92A28C8223E0E4400C5337E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C92A28C9223E0E6000C5337E /* ここにNetBeansのフォルダを配置します.txt */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +135,7 @@
 			files = (
 				C92A28BB223E0DC500C5337E /* Assets.xcassets in Resources */,
 				C92A28BE223E0DC500C5337E /* MainMenu.xib in Resources */,
+				C92A28CA223E0E6000C5337E /* ここにNetBeansのフォルダを配置します.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
